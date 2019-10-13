@@ -25,6 +25,13 @@
         .maxw1600 {
             max-width: 1600px;
         }
+        .br5 {
+            border-radius: 5px;
+            box-shadow: 0 5px 15px 0 rgba(0,0,0,0.15);
+        }
+        .btn-success-custom {
+            background: #5c6ac4;
+        }
     </style>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -48,15 +55,69 @@
 
       <div class="collapse navbar-collapse pr-5" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Start
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Start your business</a>
+              <div class="dropdown-divider"></div>                 
+              <a class="dropdown-item" href="#">Online store</a>
+              <a class="dropdown-item" href="#">Point of Sale</a>                
+              <a class="dropdown-item" href="#">Buy Button</a>
+              <a class="dropdown-item" href="#">Sales channels</a>
+              <a class="dropdown-item" href="#">Custom storefront tools</a>                
+            </div>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Sell
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Sell everywhere</a>
+              <div class="dropdown-divider"></div>                 
+              <a class="dropdown-item" href="#">Branding</a>
+              <a class="dropdown-item" href="#">Online presence</a>                
+              <a class="dropdown-item" href="#">Store set up</a>
+            </div>
+          </li>
+            
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Market
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Market your business</a>
+              <div class="dropdown-divider"></div>                 
+              <a class="dropdown-item" href="#">Facebook Ads</a>
+              <a class="dropdown-item" href="#">Google Smart Shopping</a>                
+              <a class="dropdown-item" href="#">Kit</a>
+            </div>
+          </li>
+            
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Manage
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Manage everything</a>
+              <div class="dropdown-divider"></div>                 
+              <a class="dropdown-item" href="#">Payments</a>
+              <a class="dropdown-item" href="#">Shipping</a>                
+              <a class="dropdown-item" href="#">Capital</a>
+            </div>
+          </li>
+          
+        </ul>
+        <ul class="navbar-nav pr-5">
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+            
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Learn
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
@@ -65,14 +126,13 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            
+          <li class="nav-item mr-3">
+            <a class="nav-link" href="#">Log in</a>
           </li>
-        </ul>
-        <ul class="navbar-nav pr-5">
           <li class="nav-item">
-            <a class="nav-link" href="#">A link on the right <span class="sr-only">(current)</span></a>
-          </li>
+            <a class="nav-link text-light br5 btn btn-success btn-success-custom px-4 border-0" href="#">Start free trial</a>
+          </li>            
         </ul>
     </div>
 </nav>    
