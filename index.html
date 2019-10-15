@@ -32,6 +32,9 @@
         .btn-success-custom {
             background: #5c6ac4;
         }
+        .homepage-hero-heading {
+            font-size: 3.75rem;
+        }
     </style>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -140,24 +143,37 @@
 
     <div class="container-fluid">
         <div class="bg-custom container maxw1600">
-            <div class="row">
-                <div class="col-md-6 p-5 border border-secondary">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 p-5 borderX border-secondaryX">
                     <!-- Build your business -->
+                    <h1 class="homepage-hero-heading">
+                        Build your business
+                    </h1>
+                    <p class="lead">
+                        You've got the will. We've got the way.
+                    </p>
                     <form>
                         <div class="form-group row">
                             <label for="inputEmail" class="sr-only">Email</label>
                             <div class="col-sm-8">
                                 <input class="form-control" placeholder="Enter your email address" type="email">
                             </div>
-                            <div class="col-sm-4">
-                                <button type="submit" class="btn btn-success btn-success-custom">
+                            <div class="col-sm-4 pl-0">
+                                <button type="submit" class="btn btn-success btn-success-custom br5 border-0">
                                     Start free trial
                                 </button>
                             </div>
                         </div>
-                    </form>                 
+                    </form>
+                    <div class="row">
+                        <p class="col-md-10">
+                            <span class="small text-muted">
+                                Try Shopify free for 14 days, no credit card required. By entering your email, you agree to receive marketing emails from Shopify.
+                            </span>
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-6 p-5 border border-secondary">
+                <div class="col-md-6 p-5 borderX border-secondaryX">
                     <!-- Shopify video from Youtube here -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe 
