@@ -17,6 +17,9 @@
         .bg-custom2 {
             background-color: #f5f5fc;
         }
+        .bg-custom3 {
+            background-color: #000639;
+        }
         .nav-link, 
         .nav-link:hover, 
         .navbar-light .navbar-nav .nav-link {
@@ -27,6 +30,9 @@
         }
         .maxw1600 {
             max-width: 1600px;
+        }
+        .maxw1200 {
+            max-width: 1200px;
         }
         .br5 {
             border-radius: 5px;
@@ -39,8 +45,11 @@
             font-size: 3.75rem;
         }
         #section5 {
-            background: url(https://i.imgur.com/OODt41x.png) no-repeat center;
+            background: url(https://i.imgur.com/OODt41x.png) no-repeat top;
             min-height: 500px;
+        }
+        .pt-300 {
+            padding-top: 300px;
         }
     </style>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -444,12 +453,35 @@
     
     <!-- section 5 -->
     <div class="container-fluid">
-        <div class="container maxw1600 h-25 bg-custom2 py-5 display-1">
-            <div id="section5">
-                This is section 5
+        <div class="container maxw1600 h-25 bg-custom2 py-5">
+            <div class="container maxw1200 pt-300" id="section5">
+                <div class="row text-center">
+                    <div class="col-md-6 pr-0">
+                        <img class="img-fluid"
+                             src="https://cdn.shopify.com/assets2/homepage/testimonials/testimonials-cee-cees-closet@desktop-5fc018d38a878b807f8a9997bb86f3ffc29f03d4323b0e32e30c424376e8ed31.jpg">
+                    </div>
+                    <div class="col-md-6 pl-0 bg-custom3 py-5 d-flex flex-column justify-content-around">
+                        <p class="text-light lead mx-5">
+                            “We’ve been able to build something in 3 years that a lot of brands haven’t actually gotten to in 10 years.”
+                        </p>
+                        <img class="mx-auto" src="https://cdn.shopify.com/assets2/homepage/testimonials/testimonials-logo-cee-cees-closet-small-bbc2baa973603b707c4d17c8ac77b35b9097174340d500cc757354a7d868c456.png">
+                        <p class="text-light h5 mx-5">
+                            Chioma | Cee Cee’s Closet NYC
+                        </p>
+                        <button class="btn btn-outline-light mx-5">
+                            Play Chioma and Uchenna's story
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    
+
+
+
+
+    
     
     <!-- Optional JavaScript -->
 
